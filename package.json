@@ -1,0 +1,12 @@
+{
+  "name": "recipe-grids",
+  "version": "1.0.0",
+  "description": "Recipes as dependency grids — ingredients as rows, merged cells showing what combines with what.",
+  "type": "module",
+  "scripts": {
+    "start": "python3 -m http.server 8000",
+    "validate": "node validate.js"
+  },
+  "license": "UNLICENSED",
+  "private": true
+}

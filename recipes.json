@@ -1,0 +1,2738 @@
+{
+  "recipes": [
+    {
+      "id": "ajitama-ramen-eggs",
+      "title": "Ajitama (Ramen Eggs)",
+      "source": "George Brown College — Japanese Cooking",
+      "component": true,
+      "yield": "4 eggs",
+      "timeActive": "25 min",
+      "timeTotal": "8–12 hr marinating",
+      "tags": [
+        "component",
+        "japanese",
+        "egg",
+        "ramen"
+      ],
+      "prep": [],
+      "tree": {
+        "op": "marinate",
+        "detail": "in a bag, fridge, 8–12 hr",
+        "children": [
+          {
+            "op": "stir in off the heat",
+            "children": [
+              {
+                "op": "grill",
+                "detail": "until lightly browned",
+                "children": [
+                  {
+                    "item": "vegetable oil",
+                    "us": "1 tsp",
+                    "metric": "5 mL"
+                  },
+                  {
+                    "item": "green onions",
+                    "us": "2"
+                  }
+                ]
+              },
+              {
+                "op": "boil",
+                "detail": "small saucepan",
+                "children": [
+                  {
+                    "item": "water",
+                    "us": "1/2 cup",
+                    "metric": "120 mL"
+                  },
+                  {
+                    "item": "mirin",
+                    "us": "5 Tbs",
+                    "metric": "75 mL"
+                  },
+                  {
+                    "item": "soy sauce",
+                    "us": "5 Tbs",
+                    "metric": "75 mL"
+                  },
+                  {
+                    "item": "sugar",
+                    "us": "2 Tbs",
+                    "metric": "25 g"
+                  }
+                ]
+              },
+              {
+                "item": "garlic, grated",
+                "us": "1/2 tsp",
+                "metric": "~2 g",
+                "note": "Let the marinade cool completely before the eggs go in, or it keeps cooking them."
+              }
+            ]
+          },
+          {
+            "op": "cool and peel",
+            "detail": "under cold running water",
+            "children": [
+              {
+                "op": "boil",
+                "detail": "7 min from the fridge, 6½ at room temp",
+                "note": "Stir for the first 40 seconds to centre the yolk — that stirring is inside the cook time, not added to it.",
+                "children": [
+                  {
+                    "item": "eggs",
+                    "us": "4",
+                    "metric": "~200 g",
+                    "note": "1 L water; a tablespoon each of salt and vinegar is optional and helps the shells release."
+                  }
+                ]
+              }
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "id": "chicken-stock",
+      "title": "Chicken Stock",
+      "source": "George Brown College — Culinary Arts 1",
+      "component": true,
+      "yield": "3 litres",
+      "timeActive": "20 min",
+      "timeTotal": "3 hr",
+      "tags": [
+        "component",
+        "stock",
+        "chicken"
+      ],
+      "prep": [],
+      "tree": {
+        "op": "strain carefully",
+        "children": [
+          {
+            "op": "steep the sachet",
+            "detail": "in the last 20–30 min",
+            "children": [
+              {
+                "op": "simmer",
+                "detail": "30 min minimum, 3 hr preferable, skimming as needed",
+                "note": "Simmer, never boil — a rolling boil emulsifies the fat into the stock and clouds it.",
+                "children": [
+                  {
+                    "op": "skim until clear",
+                    "detail": "a few minutes",
+                    "note": "The mirepoix doesn't go in until nothing more rises and the stock runs clear.",
+                    "children": [
+                      {
+                        "op": "bring to a boil",
+                        "detail": "cold water, from cold",
+                        "children": [
+                          {
+                            "item": "chicken bones",
+                            "us": "4.4 lb",
+                            "metric": "2 kg",
+                            "note": "Blanching them first — cover, boil, dump, rinse — gives a more refined stock. Roasting them instead gives a browner, deeper one."
+                          },
+                          {
+                            "item": "water, cold",
+                            "us": "4 qt",
+                            "metric": "4 L"
+                          }
+                        ]
+                      }
+                    ]
+                  },
+                  {
+                    "item": "carrot, medium dice",
+                    "us": "1"
+                  },
+                  {
+                    "item": "white cooking onion, medium dice",
+                    "us": "1"
+                  },
+                  {
+                    "item": "celery stalk, medium dice",
+                    "us": "1",
+                    "note": "Celeriac can stand in for the celery."
+                  },
+                  {
+                    "item": "leek, medium dice",
+                    "us": "1/2"
+                  }
+                ]
+              },
+              {
+                "op": "tie into a sachet",
+                "children": [
+                  {
+                    "item": "thyme sprigs, bruised",
+                    "us": "3",
+                    "note": "In only for the last 20–30 minutes — herbs held for three hours turn bitter and muddy. Rosemary or other aromatics can join them if you want."
+                  },
+                  {
+                    "item": "bay leaves",
+                    "us": "2"
+                  },
+                  {
+                    "item": "parsley sprigs",
+                    "us": "6"
+                  },
+                  {
+                    "item": "white peppercorns, cracked",
+                    "us": "20"
+                  }
+                ]
+              }
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "id": "dashi",
+      "title": "Dashi (Ichiban Dashi)",
+      "source": "George Brown College — Japanese Cooking",
+      "component": true,
+      "yield": "4 servings (about 1 L)",
+      "timeActive": "15 min",
+      "timeTotal": "1 hr 15 min",
+      "tags": [
+        "component",
+        "japanese",
+        "stock",
+        "dashi"
+      ],
+      "prep": [
+        "Keep the pot below a boil from start to finish"
+      ],
+      "tree": {
+        "op": "strain",
+        "detail": "gently, through a fine strainer — don't squeeze the flakes",
+        "note": "Keeps 4 days in the fridge, or about a month frozen.",
+        "children": [
+          {
+            "op": "rest off the heat",
+            "detail": "until the katsuo-bushi sinks, ~20 min",
+            "children": [
+              {
+                "op": "simmer",
+                "detail": "3–5 min, skimming the film",
+                "children": [
+                  {
+                    "op": "lift out the kombu",
+                    "children": [
+                      {
+                        "op": "heat",
+                        "detail": "medium, ~10 min, until small bubbles form",
+                        "note": "Boiled kombu turns slimy and bitter — pull it as the small bubbles start.",
+                        "children": [
+                          {
+                            "op": "soak",
+                            "detail": "30 min, in the pot",
+                            "children": [
+                              {
+                                "item": "water",
+                                "us": "4 1/4 cups",
+                                "metric": "1 L"
+                              },
+                              {
+                                "item": "dried kombu kelp",
+                                "us": "3/4 oz",
+                                "metric": "20 g"
+                              }
+                            ]
+                          }
+                        ]
+                      }
+                    ]
+                  },
+                  {
+                    "item": "katsuo-bushi (dried bonito flakes)",
+                    "us": "1 oz",
+                    "metric": "30 g"
+                  }
+                ],
+                "note": "Boiling here drives off the katsuo aroma and clouds the stock."
+              }
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "id": "gohan",
+      "title": "Gohan (Japanese Rice)",
+      "source": "George Brown College — Japanese Cooking",
+      "component": true,
+      "yield": "4 servings",
+      "timeActive": "15 min",
+      "timeTotal": "1 hr 10 min",
+      "tags": [
+        "component",
+        "japanese",
+        "rice",
+        "staple"
+      ],
+      "prep": [],
+      "tree": {
+        "op": "fluff",
+        "detail": "big spoon or rice paddle",
+        "children": [
+          {
+            "op": "steam off the heat",
+            "detail": "10 min, lid on",
+            "children": [
+              {
+                "op": "cook",
+                "detail": "low, 10–12 min, until the water is fully absorbed",
+                "children": [
+                  {
+                    "op": "bring to a boil",
+                    "detail": "lid on, medium heat",
+                    "children": [
+                      {
+                        "op": "drain",
+                        "detail": "in a strainer, at least 10 min",
+                        "children": [
+                          {
+                            "op": "soak",
+                            "detail": "20–30 min",
+                            "children": [
+                              {
+                                "op": "wash",
+                                "detail": "2nd and 3rd times, until almost clear",
+                                "note": "Shake the rice in that same water rather than changing it — less water means more friction between the grains.",
+                                "children": [
+                                  {
+                                    "op": "rinse and discard",
+                                    "detail": "first water, immediately",
+                                    "note": "Dry rice drinks fastest in the first seconds, so the cloudy first water goes before it can be absorbed.",
+                                    "children": [
+                                      {
+                                        "item": "sushi or new-crop rice",
+                                        "us": "2 cups",
+                                        "metric": "400 g",
+                                        "note": "Ordinary short grain stands in fine — it just wants the higher water ratio."
+                                      }
+                                    ]
+                                  }
+                                ]
+                              }
+                            ]
+                          }
+                        ]
+                      },
+                      {
+                        "item": "water",
+                        "us": "2 1/4 cups",
+                        "metric": "540 mL",
+                        "note": "1 : 1.1 rice to water by volume, which is what 2¼ cups is. Short grain takes 1 : 1.2 — 2.4 cups here."
+                      }
+                    ]
+                  }
+                ]
+              }
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "id": "nibuta-chashu",
+      "title": "Nibuta / Char Siu (Braised Pork)",
+      "source": "George Brown College — Japanese Cooking",
+      "component": true,
+      "yield": "4 servings",
+      "timeActive": "20 min",
+      "timeTotal": "1 hr 30 min",
+      "tags": [
+        "component",
+        "japanese",
+        "pork",
+        "ramen"
+      ],
+      "prep": [],
+      "tree": {
+        "op": "simmer",
+        "detail": "low, about 1 hr",
+        "note": "The braising liquid is half the point — it becomes the tare.",
+        "children": [
+          {
+            "op": "bring to a boil",
+            "detail": "under a foil cartouche",
+            "note": "A foil cartouche pressed onto the surface keeps the pork submerged in a tall pan.",
+            "children": [
+              {
+                "op": "brown",
+                "detail": "medium heat, tall pan",
+                "children": [
+                  {
+                    "op": "salt",
+                    "children": [
+                      {
+                        "item": "pork butt, shoulder, belly or loin",
+                        "us": "2 lb",
+                        "metric": "900 g"
+                      }
+                    ]
+                  },
+                  {
+                    "item": "vegetable oil",
+                    "us": "as needed"
+                  }
+                ]
+              },
+              {
+                "item": "sake",
+                "us": "180 mL"
+              },
+              {
+                "item": "soy sauce",
+                "us": "180 mL"
+              },
+              {
+                "item": "brown sugar",
+                "us": "5 Tbs",
+                "metric": "60 g"
+              },
+              {
+                "item": "mirin",
+                "us": "45 mL"
+              },
+              {
+                "item": "water",
+                "us": "1000 mL"
+              },
+              {
+                "item": "green onions, halved",
+                "us": "2"
+              },
+              {
+                "item": "ginger, roughly chopped",
+                "us": "15 g"
+              },
+              {
+                "item": "garlic, roughly chopped",
+                "us": "3 cloves"
+              },
+              {
+                "item": "cinnamon and chilli",
+                "us": "optional"
+              }
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "id": "tare",
+      "title": "Tare (Ramen Soup Base)",
+      "source": "George Brown College — Japanese Cooking",
+      "component": true,
+      "yield": "about 440 mL",
+      "timeActive": "10 min",
+      "timeTotal": "10 min + overnight",
+      "tags": [
+        "component",
+        "japanese",
+        "ramen",
+        "seasoning"
+      ],
+      "prep": [],
+      "tree": {
+        "op": "stir in off the heat",
+        "note": "Rest it in the fridge overnight before using — the flavour rounds out and deepens. Keeps a month.",
+        "children": [
+          {
+            "op": "simmer",
+            "detail": "low heat, small saucepan",
+            "children": [
+              {
+                "item": "soy sauce",
+                "us": "150 mL"
+              },
+              {
+                "item": "mirin",
+                "us": "30 mL"
+              },
+              {
+                "item": "sake",
+                "us": "10 mL"
+              },
+              {
+                "item": "nibuta braising liquid",
+                "us": "200 mL",
+                "ref": "nibuta-chashu",
+                "note": "The cooking liquid from the pork. It balances the base and makes a far more flavourful tare."
+              }
+            ]
+          },
+          {
+            "item": "soy sauce, reserved",
+            "us": "50 mL",
+            "note": "The 200 mL of soy is divided — this last 50 mL goes in off the heat so it keeps its aroma."
+          }
+        ]
+      }
+    },
+    {
+      "id": "tempura-koromo",
+      "title": "Tempura Koromo (Tempura Batter)",
+      "source": "George Brown College — Japanese Cooking",
+      "component": true,
+      "yield": "about 400 mL",
+      "timeActive": "5 min",
+      "timeTotal": "5 min",
+      "tags": [
+        "component",
+        "japanese",
+        "batter",
+        "fried"
+      ],
+      "prep": [],
+      "tree": {
+        "op": "fold loosely",
+        "detail": "barely combined",
+        "note": "Lumps are fine — overmixing develops gluten and the coating turns heavy. Mix small batches.",
+        "children": [
+          {
+            "op": "mix well",
+            "children": [
+              {
+                "item": "whole egg",
+                "us": "1",
+                "metric": "~50 g"
+              },
+              {
+                "item": "ice cold water",
+                "us": "200 mL",
+                "note": "The cold is not optional — it's what keeps the coating light."
+              }
+            ]
+          },
+          {
+            "item": "low-gluten flour",
+            "us": "130 g",
+            "note": "Cake flour is best; Showa tempura flour better still. High-protein flour makes a tough coating."
+          },
+          {
+            "item": "cornstarch",
+            "us": "2 Tbs",
+            "metric": "16 g"
+          }
+        ]
+      }
+    },
+    {
+      "id": "tentsuyu",
+      "title": "Tentsuyu (Tempura Sauce)",
+      "source": "George Brown College — Japanese Cooking",
+      "component": true,
+      "yield": "4 servings",
+      "timeActive": "5 min",
+      "timeTotal": "5 min",
+      "tags": [
+        "component",
+        "japanese",
+        "sauce",
+        "tempura"
+      ],
+      "prep": [],
+      "tree": {
+        "op": "serve",
+        "detail": "daikon and ginger on the side",
+        "children": [
+          {
+            "op": "boil, then off the heat",
+            "detail": "medium heat, small pot",
+            "note": "Basic ratio is 5 : 1 : 1, dashi to soy to mirin — scale from that. Kill the heat the moment it boils; carrying on flattens it.",
+            "children": [
+              {
+                "item": "dashi stock",
+                "us": "200 mL",
+                "ref": "dashi"
+              },
+              {
+                "item": "soy sauce",
+                "us": "40 mL"
+              },
+              {
+                "item": "mirin",
+                "us": "40 mL"
+              }
+            ]
+          },
+          {
+            "op": "grate",
+            "children": [
+              {
+                "item": "daikon radish",
+                "us": "as needed",
+                "note": "Daikon carries enzymes that help digest the fried food — it earns its place rather than just decorating."
+              }
+            ]
+          },
+          {
+            "op": "grate",
+            "children": [
+              {
+                "item": "ginger",
+                "us": "as needed"
+              }
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "id": "tonkotsu-broth",
+      "title": "Tonkotsu Ramen Broth",
+      "source": "George Brown College — Japanese Cooking",
+      "component": true,
+      "yield": "about 3 quarts",
+      "timeActive": "1 hr",
+      "timeTotal": "6–8 hr",
+      "tags": [
+        "component",
+        "japanese",
+        "broth",
+        "ramen"
+      ],
+      "prep": [],
+      "tree": {
+        "op": "strain",
+        "detail": "once reduced to about 3 quarts",
+        "note": "Keeps a week in the fridge, a month in the freezer.",
+        "children": [
+          {
+            "op": "boil hard",
+            "detail": "6–8 hr, topping up to keep the bones covered",
+            "note": "It stays at a rolling boil the whole time — that's what breaks the collagen down and turns the broth milky. Skim at the end. A pressure cooker is an option, not a requirement: it roughly halves the time, and you can run the first phase on the stove until it's skimmed, then transfer.",
+            "children": [
+              {
+                "op": "return to the boil",
+                "detail": "clean pot, cold water, high heat",
+                "children": [
+                  {
+                    "op": "parboil, rinse, scrub",
+                    "note": "Bring it up and the moment the blood rises, dump it, rinse and scrub the brown off, then start again with clean water.",
+                    "children": [
+                      {
+                        "item": "pig trotters and/or pork neck bones, cut small",
+                        "us": "3 lb",
+                        "metric": "1.4 kg"
+                      },
+                      {
+                        "item": "chicken carcass",
+                        "us": "2 lb",
+                        "metric": "900 g"
+                      }
+                    ]
+                  },
+                  {
+                    "item": "water",
+                    "us": "5–6 L"
+                  }
+                ]
+              },
+              {
+                "op": "toast",
+                "detail": "in a little oil, until lightly browned",
+                "children": [
+                  {
+                    "item": "onion",
+                    "us": "1"
+                  },
+                  {
+                    "item": "garlic head, halved, unpeeled",
+                    "us": "1"
+                  },
+                  {
+                    "item": "ginger, unpeeled",
+                    "us": "15 g"
+                  },
+                  {
+                    "item": "vegetable oil",
+                    "us": "as needed"
+                  }
+                ]
+              },
+              {
+                "item": "dried shiitake mushroom",
+                "us": "2–3"
+              },
+              {
+                "item": "green onion tops",
+                "us": "as needed"
+              }
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "id": "agedashi-tofu",
+      "title": "Agedashi Tofu (Deep Fried Tofu with Dashi Sauce)",
+      "source": "George Brown College — Japanese Cooking",
+      "yield": "4 servings",
+      "timeActive": "30 min",
+      "timeTotal": "50 min",
+      "tags": [
+        "japanese",
+        "tofu",
+        "fried",
+        "starter"
+      ],
+      "prep": [],
+      "tree": {
+        "op": "assemble",
+        "detail": "tofu in bowls, sauce poured in gently, garnish on top",
+        "children": [
+          {
+            "op": "deep fry",
+            "detail": "340°F (170°C), in batches",
+            "note": "Done when the bubbles turn very small — that's the moisture finished leaving.",
+            "children": [
+              {
+                "op": "coat",
+                "detail": "dust off the excess",
+                "children": [
+                  {
+                    "op": "cut into 8",
+                    "children": [
+                      {
+                        "op": "drain",
+                        "detail": "wrapped in paper towel, in the fridge, 20 min",
+                        "children": [
+                          {
+                            "item": "medium firm tofu",
+                            "us": "1 lb",
+                            "metric": "450 g"
+                          }
+                        ]
+                      }
+                    ]
+                  },
+                  {
+                    "op": "mix",
+                    "note": "Cornstarch gives the crisp shell, flour keeps the inside moist — combine them before dusting.",
+                    "children": [
+                      {
+                        "item": "cornstarch",
+                        "us": "3 Tbs",
+                        "metric": "24 g"
+                      },
+                      {
+                        "item": "all-purpose flour",
+                        "us": "2 Tbs",
+                        "metric": "16 g"
+                      }
+                    ]
+                  }
+                ]
+              },
+              {
+                "item": "oil for deep frying",
+                "us": "as needed"
+              }
+            ]
+          },
+          {
+            "op": "simmer",
+            "detail": "low, a couple of min, then set aside",
+            "children": [
+              {
+                "op": "boil",
+                "children": [
+                  {
+                    "item": "mirin",
+                    "us": "3 Tbs",
+                    "metric": "45 mL"
+                  }
+                ]
+              },
+              {
+                "item": "dashi stock",
+                "us": "1 2/3 cups",
+                "metric": "400 mL",
+                "ref": "dashi"
+              },
+              {
+                "item": "soy sauce",
+                "us": "3 Tbs",
+                "metric": "45 mL"
+              }
+            ]
+          },
+          {
+            "op": "peel, grate, squeeze",
+            "detail": "gently",
+            "children": [
+              {
+                "item": "daikon",
+                "us": "~2 oz",
+                "metric": "50 g"
+              }
+            ]
+          },
+          {
+            "op": "peel and grate",
+            "children": [
+              {
+                "item": "ginger",
+                "us": "~3/4 oz",
+                "metric": "20 g"
+              }
+            ]
+          },
+          {
+            "op": "slit, flatten, julienne",
+            "detail": "then into cold water",
+            "note": "Shiraga negi — the cold water curls the shreds and takes the raw bite off.",
+            "children": [
+              {
+                "item": "green onions",
+                "us": "2"
+              }
+            ]
+          },
+          {
+            "item": "nori seaweed",
+            "us": "1 sheet"
+          }
+        ]
+      }
+    },
+    {
+      "id": "chicken-karaage",
+      "supersedes": [
+        "chicken-karaage-marinade"
+      ],
+      "title": "Chicken Karaage",
+      "source": "George Brown College — Japanese Cooking",
+      "yield": "4 servings",
+      "timeActive": "20 min",
+      "timeTotal": "40 min",
+      "tags": [
+        "japanese",
+        "chicken",
+        "fried",
+        "karaage"
+      ],
+      "prep": [],
+      "tree": {
+        "op": "drain and salt",
+        "detail": "lemon alongside",
+        "note": "The marinade and its 15 minutes are from the class sheet. The dredge and the double fry are standard karaage method, added here to complete the recipe.",
+        "children": [
+          {
+            "op": "second fry",
+            "detail": "350–375°F (180–190°C), 45–60 sec, to deep gold",
+            "children": [
+              {
+                "op": "rest",
+                "detail": "3–5 min on a rack",
+                "note": "The rest is what cooks the inside through — the second fry is only for colour and crunch.",
+                "children": [
+                  {
+                    "op": "first fry",
+                    "detail": "320°F (160°C), ~2 min, still pale",
+                    "children": [
+                      {
+                        "op": "dredge",
+                        "detail": "shake off the excess",
+                        "children": [
+                          {
+                            "op": "marinate",
+                            "detail": "15 min",
+                            "children": [
+                              {
+                                "op": "cut into 2-in pieces",
+                                "children": [
+                                  {
+                                    "item": "chicken thigh, skin on",
+                                    "us": "1 lb",
+                                    "metric": "450 g",
+                                    "note": "Thigh, not breast — breast dries out in the two fries."
+                                  }
+                                ]
+                              },
+                              {
+                                "item": "soy sauce",
+                                "us": "2 Tbs",
+                                "metric": "30 mL"
+                              },
+                              {
+                                "item": "mirin",
+                                "us": "1 Tbs",
+                                "metric": "15 mL"
+                              },
+                              {
+                                "item": "ginger and garlic, grated",
+                                "us": "1 tsp",
+                                "metric": "~5 g"
+                              },
+                              {
+                                "item": "black pepper",
+                                "us": "to taste"
+                              }
+                            ]
+                          },
+                          {
+                            "item": "potato starch (katakuriko)",
+                            "us": "1/2 cup",
+                            "metric": "60 g"
+                          }
+                        ]
+                      },
+                      {
+                        "item": "oil for deep frying",
+                        "us": "as needed"
+                      }
+                    ]
+                  }
+                ]
+              }
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "id": "cornbread-last-schmaltz",
+      "title": "Cornbread",
+      "source": "The Last Schmaltz — Anthony Rose",
+      "yield": "10 to 12 servings",
+      "timeActive": "20 min",
+      "timeTotal": "1 hr 30 min",
+      "tags": [
+        "bread",
+        "side",
+        "cast iron",
+        "jalapeño"
+      ],
+      "prep": [
+        "Preheat oven to 350°F (175°C)",
+        "Heat a 12-in cast-iron pan in the oven"
+      ],
+      "tree": {
+        "op": "cool",
+        "detail": "a few min in the pan, then turn out onto a rack",
+        "children": [
+          {
+            "op": "bake",
+            "detail": "30 min, rotate, 30 min more",
+            "note": "A toothpick in the centre should come out clean; give it a few more minutes if it doesn't.",
+            "children": [
+              {
+                "op": "pour batter in",
+                "children": [
+                  {
+                    "op": "mix gently",
+                    "detail": "wet into dry, by hand",
+                    "children": [
+                      {
+                        "op": "combine",
+                        "children": [
+                          {
+                            "item": "all-purpose flour",
+                            "us": "2 cups",
+                            "metric": "240 g"
+                          },
+                          {
+                            "item": "cornmeal",
+                            "us": "3/4 cup",
+                            "metric": "105 g"
+                          },
+                          {
+                            "item": "grits",
+                            "us": "3/4 cup",
+                            "metric": "130 g"
+                          },
+                          {
+                            "item": "baking powder",
+                            "us": "2 Tbs",
+                            "metric": "24 g"
+                          },
+                          {
+                            "item": "kosher salt",
+                            "us": "2 tsp",
+                            "metric": "6 g",
+                            "note": "6 g is Diamond Crystal; the same 2 tsp of Morton weighs closer to 10 g."
+                          },
+                          {
+                            "item": "white sugar",
+                            "us": "1/2 cup + 1 Tbs",
+                            "metric": "113 g"
+                          },
+                          {
+                            "item": "jalapeño, seeded and diced small",
+                            "us": "1",
+                            "metric": "~15 g"
+                          },
+                          {
+                            "item": "shredded cheddar",
+                            "us": "1 cup",
+                            "metric": "115 g"
+                          }
+                        ]
+                      },
+                      {
+                        "op": "whisk",
+                        "children": [
+                          {
+                            "item": "large eggs",
+                            "us": "2",
+                            "metric": "100 g"
+                          },
+                          {
+                            "item": "melted unsalted butter",
+                            "us": "1/4 cup",
+                            "metric": "57 g"
+                          },
+                          {
+                            "item": "buttermilk",
+                            "us": "2 1/2 cups",
+                            "metric": "600 mL"
+                          }
+                        ]
+                      }
+                    ]
+                  },
+                  {
+                    "op": "coat hot pan",
+                    "detail": "swirl up the sides",
+                    "children": [
+                      {
+                        "item": "duck fat or pork lard",
+                        "us": "1/4 cup",
+                        "metric": "50 g",
+                        "note": "Butter or oil stands in."
+                      }
+                    ]
+                  }
+                ]
+              }
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "id": "creamy-cucumber-salad",
+      "title": "Creamy Cucumber Salad",
+      "source": "Budget Bytes — Beth Moncel",
+      "url": "https://www.budgetbytes.com/creamy-cucumber-salad/",
+      "yield": "4 servings (1 cup each)",
+      "timeActive": "15 min",
+      "timeTotal": "25 min",
+      "tags": [
+        "salad",
+        "side",
+        "no-cook",
+        "summer"
+      ],
+      "prep": [],
+      "tree": {
+        "op": "rest",
+        "detail": "5–10 min, stir again, serve",
+        "children": [
+          {
+            "op": "toss",
+            "children": [
+              {
+                "op": "slice",
+                "detail": "1/8–1/4 in",
+                "children": [
+                  {
+                    "item": "cucumber",
+                    "us": "1 large",
+                    "metric": "~300 g",
+                    "note": "Peeling is optional. On a conventional cucumber, scrape out the watery seed core first; English cucumbers don't need it."
+                  }
+                ]
+              },
+              {
+                "op": "slice thin",
+                "children": [
+                  {
+                    "item": "red onion",
+                    "us": "1/4",
+                    "metric": "~35 g"
+                  }
+                ]
+              },
+              {
+                "op": "whisk",
+                "detail": "until smooth",
+                "children": [
+                  {
+                    "item": "sour cream",
+                    "us": "1/2 cup",
+                    "metric": "120 g",
+                    "note": "Greek yogurt swaps in for a sharper dressing; 2–4 Tbs mayo stirred in makes it richer."
+                  },
+                  {
+                    "item": "lemon juice",
+                    "us": "2 Tbs",
+                    "metric": "30 mL"
+                  },
+                  {
+                    "item": "granulated sugar",
+                    "us": "1 tsp",
+                    "metric": "4 g"
+                  },
+                  {
+                    "item": "dried dill",
+                    "us": "1/2 tsp",
+                    "metric": "1 g"
+                  },
+                  {
+                    "item": "salt",
+                    "us": "1/2 tsp",
+                    "metric": "3 g",
+                    "note": "Salt draws water out of the cucumbers, so dress and serve close together or the dressing thins."
+                  }
+                ]
+              }
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "id": "cucumber-umeboshi-cashew-crunch",
+      "title": "Cucumber Umeboshi Salad with Cashew Crunch",
+      "source": "Salad for President — Julia Sherman",
+      "yield": "4 to 6 servings",
+      "timeActive": "20 min",
+      "timeTotal": "45 min",
+      "tags": [
+        "salad",
+        "side",
+        "japanese"
+      ],
+      "prep": [
+        "Preheat oven to 375°F (190°C)",
+        "Line a baking sheet with foil"
+      ],
+      "tree": {
+        "op": "toss gently",
+        "detail": "crunch over the salad, at the table",
+        "children": [
+          {
+            "op": "toast",
+            "detail": "middle rack, ~10 min, then cool",
+            "note": "They come out sticky and only set into crunchy clusters as they cool — don't judge them hot.",
+            "children": [
+              {
+                "op": "stir together",
+                "detail": "as evenly as you can",
+                "children": [
+                  {
+                    "op": "chop roughly",
+                    "children": [
+                      {
+                        "item": "raw cashew pieces",
+                        "us": "1/2 cup",
+                        "metric": "65 g"
+                      }
+                    ]
+                  },
+                  {
+                    "item": "toasted sesame seeds",
+                    "us": "1 Tbs + 1 tsp",
+                    "metric": "12 g"
+                  },
+                  {
+                    "op": "shred thin",
+                    "children": [
+                      {
+                        "item": "unseasoned nori (8 × 7½-in sheet)",
+                        "us": "1",
+                        "metric": "~3 g"
+                      }
+                    ]
+                  },
+                  {
+                    "op": "pound to a paste",
+                    "detail": "mortar and pestle",
+                    "children": [
+                      {
+                        "item": "black garlic, peeled",
+                        "us": "2 cloves",
+                        "metric": "~10 g",
+                        "note": "No black garlic? Roasted garlic cloves with a pinch of sugar get close."
+                      },
+                      {
+                        "item": "fish sauce",
+                        "us": "1 tsp",
+                        "metric": "5 mL"
+                      },
+                      {
+                        "item": "habanero, minced",
+                        "us": "1 tsp",
+                        "metric": "~2 g"
+                      }
+                    ]
+                  }
+                ]
+              },
+              {
+                "op": "coat the foil",
+                "children": [
+                  {
+                    "item": "untoasted sesame or vegetable oil",
+                    "us": "1 Tbs",
+                    "metric": "15 mL"
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "op": "toss",
+            "children": [
+              {
+                "op": "toss",
+                "children": [
+                  {
+                    "op": "peel, seed, cut",
+                    "detail": "every other strip; 1-in chunks",
+                    "children": [
+                      {
+                        "item": "small cucumbers, chilled",
+                        "us": "2 lb",
+                        "metric": "900 g",
+                        "note": "About 6 Kirby or lemon cucumbers, or 10 Persian — Persians don't need seeding."
+                      }
+                    ]
+                  },
+                  {
+                    "op": "pit and mince",
+                    "detail": "to a chunky paste",
+                    "children": [
+                      {
+                        "item": "umeboshi plums",
+                        "us": "2",
+                        "metric": "~30 g"
+                      }
+                    ]
+                  }
+                ]
+              },
+              {
+                "item": "brown rice vinegar",
+                "us": "1 Tbs",
+                "metric": "15 mL"
+              }
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "id": "ebi-no-tempura",
+      "title": "Ebi no Tempura (Shrimp Tempura)",
+      "source": "George Brown College — Japanese Cooking",
+      "yield": "4 servings",
+      "timeActive": "30 min",
+      "timeTotal": "30 min",
+      "tags": [
+        "japanese",
+        "shrimp",
+        "fried",
+        "tempura"
+      ],
+      "prep": [],
+      "tree": {
+        "op": "serve",
+        "children": [
+          {
+            "op": "deep fry",
+            "detail": "340°F (170°C), ~2 min, flipping at 1 min",
+            "note": "Oil is right when a dropped bead of batter sinks and bounces straight back up. Fry until the bubbles turn small; don't crowd the pot, and skim the crumbs.",
+            "children": [
+              {
+                "op": "dip in the batter",
+                "children": [
+                  {
+                    "op": "dust",
+                    "children": [
+                      {
+                        "op": "score and straighten",
+                        "detail": "diagonal cuts across the belly",
+                        "note": "Press along the scores — this is what stops the shrimp curling as it fries.",
+                        "children": [
+                          {
+                            "op": "pat dry",
+                            "children": [
+                              {
+                                "op": "massage, then rinse",
+                                "note": "Salt and cornstarch worked in and rinsed off is what takes the fishiness away.",
+                                "children": [
+                                  {
+                                    "op": "peel and devein",
+                                    "detail": "tail on, peeling tail to head",
+                                    "note": "Trim the tail on an angle and press the water out of it — trapped water spits in the hot oil. Deveining takes the bitterness out.",
+                                    "children": [
+                                      {
+                                        "item": "black tiger shrimp (21/25 IQF)",
+                                        "us": "8"
+                                      }
+                                    ]
+                                  },
+                                  {
+                                    "item": "salt",
+                                    "us": "as needed"
+                                  },
+                                  {
+                                    "item": "cornstarch",
+                                    "us": "as needed"
+                                  }
+                                ]
+                              }
+                            ]
+                          }
+                        ]
+                      },
+                      {
+                        "item": "all-purpose flour",
+                        "us": "15 g"
+                      }
+                    ]
+                  },
+                  {
+                    "item": "tempura batter",
+                    "us": "250 mL",
+                    "ref": "tempura-koromo"
+                  }
+                ]
+              },
+              {
+                "item": "oil for deep frying",
+                "us": "as needed"
+              }
+            ]
+          },
+          {
+            "item": "tentsuyu (tempura sauce)",
+            "us": "1 recipe",
+            "ref": "tentsuyu"
+          }
+        ]
+      }
+    },
+    {
+      "id": "espresso-brownies",
+      "title": "Espresso Brownies",
+      "source": "Cooking for Engineers",
+      "url": "https://www.cookingforengineers.com/recipe/74/Espresso-Brownies",
+      "yield": "16 squares",
+      "timeActive": "15 min",
+      "timeTotal": "1 hr",
+      "tags": [
+        "dessert",
+        "chocolate",
+        "one bowl"
+      ],
+      "prep": [
+        "Butter and flour an 8×8-in pan",
+        "Preheat oven to 350°F (170°C)"
+      ],
+      "tree": {
+        "op": "bake",
+        "detail": "350°F (170°C), 30–40 min",
+        "children": [
+          {
+            "op": "fold in",
+            "children": [
+              {
+                "op": "mix",
+                "children": [
+                  {
+                    "op": "mix",
+                    "children": [
+                      {
+                        "op": "melt",
+                        "children": [
+                          {
+                            "item": "unsalted butter",
+                            "us": "4 oz",
+                            "metric": "115 g"
+                          }
+                        ]
+                      },
+                      {
+                        "item": "sugar",
+                        "us": "1 cup",
+                        "metric": "200 g"
+                      },
+                      {
+                        "item": "vanilla extract",
+                        "us": "1/4 tsp",
+                        "metric": "2.5 mL"
+                      },
+                      {
+                        "item": "fresh brewed espresso",
+                        "us": "4 Tbs",
+                        "metric": "60 mL",
+                        "note": "One shot. Very strong drip coffee stands in fine."
+                      }
+                    ]
+                  },
+                  {
+                    "item": "large eggs",
+                    "us": "2",
+                    "metric": "100 g"
+                  }
+                ]
+              },
+              {
+                "item": "all-purpose flour",
+                "us": "1/2 cup",
+                "metric": "80 g"
+              },
+              {
+                "item": "cocoa powder",
+                "us": "1/3 cup",
+                "metric": "80 g"
+              },
+              {
+                "item": "baking soda",
+                "us": "1/4 tsp",
+                "metric": "1.3 g"
+              },
+              {
+                "item": "table salt",
+                "us": "1/4 tsp",
+                "metric": "1.5 g"
+              }
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "id": "fave-e-cicoria",
+      "title": "Fave e Cicoria (Fava Purée with Chicory)",
+      "source": "Traditional Puglian — no single author",
+      "yield": "4 servings",
+      "timeActive": "30 min",
+      "timeTotal": "2 hr 30 min + overnight soak",
+      "tags": [
+        "puglia",
+        "legume",
+        "vegetable",
+        "cucina povera"
+      ],
+      "prep": [
+        "Bring a large pot of salted water to the boil for the greens"
+      ],
+      "tree": {
+        "op": "plate together",
+        "detail": "purée one side, greens the other",
+        "children": [
+          {
+            "op": "whip to a purée",
+            "detail": "loosen with the cooking water",
+            "note": "Salt only once the beans have collapsed, while they're still in their hot water — salted from the start, they stay stubborn.",
+            "children": [
+              {
+                "op": "simmer",
+                "detail": "unsalted water to cover, 1½–2 hr, skimming",
+                "children": [
+                  {
+                    "op": "soak",
+                    "detail": "12 hr, then drain and rinse",
+                    "children": [
+                      {
+                        "item": "dried peeled fava beans",
+                        "us": "2 cups",
+                        "metric": "400 g",
+                        "note": "Decorticate — peeled and split. Fave di Zollino if you can find them."
+                      }
+                    ]
+                  },
+                  {
+                    "item": "potato, peeled and chunked",
+                    "us": "1 medium",
+                    "metric": "~150 g"
+                  },
+                  {
+                    "item": "bay leaves",
+                    "us": "2"
+                  }
+                ]
+              },
+              {
+                "item": "salt",
+                "us": "to taste"
+              }
+            ]
+          },
+          {
+            "op": "boil",
+            "detail": "~10 min, until tender",
+            "children": [
+              {
+                "op": "trim and wash",
+                "children": [
+                  {
+                    "item": "wild chicory (cicorielle)",
+                    "us": "1 1/2 lb",
+                    "metric": "700 g",
+                    "note": "Catalogna or puntarelle stand in. Skip the sweet chicories — the bitterness is the point."
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "item": "extra-virgin olive oil",
+            "us": "1/4 cup",
+            "metric": "60 mL"
+          }
+        ]
+      }
+    },
+    {
+      "id": "fried-somen",
+      "title": "Fried Somen Fan",
+      "source": "George Brown College — Japanese Cooking",
+      "yield": "1 fan",
+      "timeActive": "10 min",
+      "timeTotal": "10 min",
+      "tags": [
+        "japanese",
+        "noodles",
+        "fried",
+        "garnish"
+      ],
+      "prep": [],
+      "tree": {
+        "op": "fry until golden",
+        "children": [
+          {
+            "op": "splash more batter over",
+            "detail": "as the strands spread",
+            "children": [
+              {
+                "op": "lay the fan down into the oil",
+                "detail": "dipped end in first, held a few seconds",
+                "note": "Holding only the battered base in the oil sets it into a solid stem; the dry ends then fan out behind it like the branches of a tree.",
+                "children": [
+                  {
+                    "op": "dip the bottom ends",
+                    "children": [
+                      {
+                        "item": "somen noodles",
+                        "us": "20 strands",
+                        "note": "Gather them so the ends line up — only the bottom inch or so goes into the batter."
+                      },
+                      {
+                        "item": "tempura batter, for the base",
+                        "us": "as needed",
+                        "ref": "tempura-koromo"
+                      }
+                    ]
+                  }
+                ]
+              },
+              {
+                "item": "tempura batter, for splashing",
+                "us": "as needed",
+                "ref": "tempura-koromo"
+              }
+            ]
+          },
+          {
+            "item": "oil for deep frying",
+            "us": "as needed"
+          }
+        ]
+      }
+    },
+    {
+      "id": "jeera-pulao",
+      "title": "Jeera Pulao",
+      "source": "George Brown College — Indian Cooking 1",
+      "yield": "4 portions",
+      "timeActive": "10 min",
+      "timeTotal": "45 min",
+      "tags": [
+        "indian",
+        "rice",
+        "side"
+      ],
+      "prep": [],
+      "tree": {
+        "op": "cover and cook",
+        "detail": "heat at its absolute lowest, 30 min",
+        "note": "The printed sheet stops at the stir. This is how it was actually cooked — lid on, lowest possible flame, left alone for the full 30 minutes.",
+        "children": [
+          {
+            "op": "stir gently",
+            "children": [
+              {
+                "op": "bring to a boil",
+                "children": [
+                  {
+                    "op": "crackle",
+                    "detail": "medium heat, heavy-based pan",
+                    "note": "Wait for the crackle before anything else goes in — that's the seed releasing its oil.",
+                    "children": [
+                      {
+                        "item": "vegetable oil",
+                        "us": "15 mL"
+                      },
+                      {
+                        "item": "jeera (cumin seeds)",
+                        "us": "5 g"
+                      }
+                    ]
+                  },
+                  {
+                    "item": "boiling water",
+                    "us": "700 mL"
+                  },
+                  {
+                    "item": "salt",
+                    "us": "to taste"
+                  }
+                ]
+              },
+              {
+                "item": "ground turmeric",
+                "us": "a pinch"
+              },
+              {
+                "op": "rinse, soak, drain",
+                "detail": "10 min",
+                "note": "Rinse gently and soak before draining — soaked basmati cooks out to full length instead of breaking.",
+                "children": [
+                  {
+                    "item": "basmati rice",
+                    "us": "400 g"
+                  }
+                ]
+              }
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "id": "kakiage",
+      "title": "Kakiage (Mixed Vegetable Tempura)",
+      "source": "George Brown College — Japanese Cooking",
+      "yield": "4 servings",
+      "timeActive": "25 min",
+      "timeTotal": "25 min",
+      "tags": [
+        "japanese",
+        "vegetable",
+        "fried",
+        "tempura"
+      ],
+      "prep": [],
+      "tree": {
+        "op": "deep fry",
+        "detail": "350°F (170°C), until golden brown",
+        "children": [
+          {
+            "op": "ladle into the oil",
+            "detail": "slide it off gently",
+            "note": "It goes in as one clump — that's what holds the fritter together instead of scattering.",
+            "children": [
+              {
+                "op": "fold in the batter",
+                "note": "The vegetables want to be barely coated, not suspended. Add batter until they just cling.",
+                "children": [
+                  {
+                    "op": "combine and coat",
+                    "children": [
+                      {
+                        "op": "slice",
+                        "children": [
+                          {
+                            "item": "onions",
+                            "us": "1 1/2"
+                          }
+                        ]
+                      },
+                      {
+                        "op": "julienne",
+                        "children": [
+                          {
+                            "item": "carrot",
+                            "us": "1"
+                          }
+                        ]
+                      },
+                      {
+                        "op": "julienne",
+                        "children": [
+                          {
+                            "item": "green beans",
+                            "us": "10"
+                          }
+                        ]
+                      },
+                      {
+                        "op": "rinse and pat dry",
+                        "note": "Flour won't grip a wet surface, and the trapped water spits in the oil. Rinsing takes the starch off; drying is what lets the coating stick.",
+                        "children": [
+                          {
+                            "op": "julienne and soak",
+                            "children": [
+                              {
+                                "item": "sweet potato",
+                                "us": "1 small",
+                                "metric": "~150 g"
+                              }
+                            ]
+                          }
+                        ]
+                      },
+                      {
+                        "item": "all-purpose flour, for coating",
+                        "us": "2 Tbs",
+                        "metric": "16 g"
+                      }
+                    ]
+                  },
+                  {
+                    "item": "tempura batter",
+                    "us": "as needed",
+                    "ref": "tempura-koromo"
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "item": "oil for deep frying",
+            "us": "as needed"
+          }
+        ]
+      }
+    },
+    {
+      "id": "minestrone-soup",
+      "title": "Minestrone Soup",
+      "source": "George Brown College — Culinary Arts 1",
+      "yield": "2 litres",
+      "timeActive": "35 min",
+      "timeTotal": "1 hr",
+      "tags": [
+        "soup",
+        "vegetable",
+        "italian"
+      ],
+      "prep": [],
+      "tree": {
+        "op": "serve",
+        "detail": "sprinkled and drizzled",
+        "note": "The other use for the rind: broil it, then chop it straight into the soup. It won't melt down — you get chewy, cheesy bites through the bowl.",
+        "children": [
+          {
+            "op": "season and stir in the herbs",
+            "detail": "off the heat",
+            "children": [
+              {
+                "op": "simmer",
+                "detail": "10 min more",
+                "children": [
+                  {
+                    "op": "simmer",
+                    "detail": "~20 min, until tender but still holding shape",
+                    "note": "Tender but intact — minestrone isn't cooked to collapse, and the vegetables went in whole-diced for a reason.",
+                    "children": [
+                      {
+                        "op": "add",
+                        "children": [
+                          {
+                            "op": "cook out",
+                            "detail": "to a rusty colour",
+                            "note": "Take the paste to rust before any liquid arrives — that browning is where the depth comes from.",
+                            "children": [
+                              {
+                                "op": "sweat",
+                                "detail": "pancetta first, then the onion until translucent",
+                                "children": [
+                                  {
+                                    "item": "olive oil",
+                                    "us": "2 Tbs",
+                                    "metric": "30 mL"
+                                  },
+                                  {
+                                    "item": "pancetta, diced",
+                                    "us": "~2 oz",
+                                    "metric": "50 g"
+                                  },
+                                  {
+                                    "item": "sweet onion, diced small",
+                                    "us": "1 small"
+                                  }
+                                ]
+                              },
+                              {
+                                "item": "tomato paste",
+                                "us": "1 Tbs",
+                                "metric": "15 g"
+                              }
+                            ]
+                          },
+                          {
+                            "item": "carrot, small dice",
+                            "us": "1"
+                          },
+                          {
+                            "item": "leeks, white and light green, sliced",
+                            "us": "2 small"
+                          },
+                          {
+                            "item": "celery stalks, diced small",
+                            "us": "2"
+                          },
+                          {
+                            "item": "potatoes, diced",
+                            "us": "2 medium"
+                          },
+                          {
+                            "item": "zucchini, diced",
+                            "us": "2"
+                          },
+                          {
+                            "item": "Swiss chard stems, peeled and diced",
+                            "us": "1/2 bunch"
+                          },
+                          {
+                            "item": "garlic, puréed",
+                            "us": "2 cloves"
+                          }
+                        ]
+                      },
+                      {
+                        "item": "Parmigiano rind",
+                        "us": "1 piece",
+                        "note": "Scrub the waxy side with the back of a knife and rinse it before it goes in. In before the stock, out before serving."
+                      },
+                      {
+                        "item": "canned San Marzano tomatoes, seeded and diced",
+                        "us": "~7 oz",
+                        "metric": "200 g"
+                      },
+                      {
+                        "item": "chicken stock",
+                        "us": "1.5 L",
+                        "ref": "chicken-stock",
+                        "note": "Enough stock or water to cover the vegetables by 5 cm (2 in)."
+                      }
+                    ]
+                  },
+                  {
+                    "item": "Romano beans",
+                    "us": "~7 oz",
+                    "metric": "200 g"
+                  },
+                  {
+                    "item": "Swiss chard leaves, shredded",
+                    "us": "1/2 bunch",
+                    "note": "Same bunch as the stems, twenty minutes apart — stems with the hard vegetables, leaves at the very end."
+                  }
+                ]
+              },
+              {
+                "item": "coarse sea salt",
+                "us": "to taste"
+              },
+              {
+                "item": "black pepper, freshly ground",
+                "us": "to taste"
+              },
+              {
+                "item": "basil leaves, chiffonade",
+                "us": "1/2 bunch"
+              },
+              {
+                "item": "parsley leaves, chopped",
+                "us": "1/4 bunch"
+              }
+            ]
+          },
+          {
+            "item": "Parmigiano Reggiano, grated",
+            "us": "~2 oz",
+            "metric": "60 g"
+          },
+          {
+            "item": "extra-virgin olive oil",
+            "us": "3 Tbs",
+            "metric": "45 mL"
+          }
+        ]
+      }
+    },
+    {
+      "id": "miso-shiru",
+      "title": "Miso Shiru (Miso Soup)",
+      "source": "George Brown College — Japanese Cooking",
+      "yield": "4 servings",
+      "timeActive": "15 min",
+      "timeTotal": "25 min",
+      "tags": [
+        "japanese",
+        "soup",
+        "miso"
+      ],
+      "prep": [],
+      "tree": {
+        "op": "ladle into bowls",
+        "detail": "serve immediately",
+        "note": "Seasonal additions: peas in spring, corn in summer, mushrooms in winter.",
+        "children": [
+          {
+            "op": "simmer",
+            "detail": "2 min",
+            "note": "Once the miso is in, never let it boil — boiling flattens the aroma.",
+            "children": [
+              {
+                "op": "whisk in",
+                "detail": "chopsticks or a whisk, until fully dissolved",
+                "children": [
+                  {
+                    "op": "simmer",
+                    "detail": "medium heat, until the potato is soft",
+                    "children": [
+                      {
+                        "op": "cube and rinse",
+                        "detail": "½-in (1.3 cm)",
+                        "note": "Soak and rinse the cubes to wash the surface starch off.",
+                        "children": [
+                          {
+                            "item": "potato",
+                            "us": "~3 1/2 oz",
+                            "metric": "100 g"
+                          }
+                        ]
+                      },
+                      {
+                        "op": "slice",
+                        "children": [
+                          {
+                            "item": "white onion",
+                            "us": "1/2",
+                            "metric": "~75 g"
+                          }
+                        ]
+                      },
+                      {
+                        "item": "dashi",
+                        "us": "3 1/3 cups",
+                        "metric": "800 mL",
+                        "ref": "dashi"
+                      }
+                    ]
+                  },
+                  {
+                    "item": "miso",
+                    "us": "5 Tbs",
+                    "metric": "~90 g"
+                  }
+                ]
+              },
+              {
+                "op": "soak",
+                "detail": "until it triples in volume",
+                "children": [
+                  {
+                    "item": "dried wakame seaweed",
+                    "us": "1/3 oz",
+                    "metric": "10 g"
+                  }
+                ]
+              },
+              {
+                "item": "mirin",
+                "us": "1 Tbs, optional",
+                "metric": "15 mL"
+              }
+            ]
+          },
+          {
+            "op": "chop",
+            "children": [
+              {
+                "item": "green onion, for garnish",
+                "us": "1"
+              }
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "id": "roasted-radishes-brown-butter",
+      "title": "Roasted Radishes with Brown Butter, Chile, and Honey",
+      "source": "Six Seasons — Joshua McFadden",
+      "yield": "4 servings",
+      "timeActive": "15 min",
+      "timeTotal": "35 min",
+      "tags": [
+        "side",
+        "vegetable",
+        "skillet",
+        "spring"
+      ],
+      "prep": [
+        "Heat the oven to 375°F (190°C)"
+      ],
+      "tree": {
+        "op": "taste and adjust",
+        "detail": "salt, pepper, chile, vinegar or honey; serve warm",
+        "children": [
+          {
+            "op": "fold in",
+            "children": [
+              {
+                "op": "fold in",
+                "children": [
+                  {
+                    "op": "brown",
+                    "detail": "2–3 min, until nutty",
+                    "children": [
+                      {
+                        "op": "season",
+                        "detail": "skillet back on low heat",
+                        "note": "The handle just came out of a 375°F oven. Towel.",
+                        "children": [
+                          {
+                            "op": "roast",
+                            "detail": "5 min more, until greens wilt",
+                            "children": [
+                              {
+                                "op": "roast",
+                                "detail": "375°F, ~10 min",
+                                "children": [
+                                  {
+                                    "op": "sear",
+                                    "detail": "cut side down, ~3 min",
+                                    "children": [
+                                      {
+                                        "item": "extra-virgin olive oil",
+                                        "us": "a slick"
+                                      },
+                                      {
+                                        "item": "radishes, halved lengthwise if large",
+                                        "us": "2 bunches",
+                                        "metric": "~450 g",
+                                        "note": "Keep the tops only if they're fresh and perky."
+                                      }
+                                    ]
+                                  }
+                                ]
+                              },
+                              {
+                                "item": "radish greens, washed and spun dry",
+                                "note": "Wash them like salad greens — grit won't cook out."
+                              }
+                            ]
+                          },
+                          {
+                            "item": "kosher salt",
+                            "us": "to taste"
+                          },
+                          {
+                            "item": "black pepper, freshly ground",
+                            "us": "to taste"
+                          },
+                          {
+                            "item": "dried chile flakes",
+                            "us": "1/2 tsp",
+                            "metric": "1 g"
+                          }
+                        ]
+                      },
+                      {
+                        "item": "unsalted butter",
+                        "us": "2 Tbs",
+                        "metric": "28 g"
+                      }
+                    ]
+                  },
+                  {
+                    "item": "red wine vinegar",
+                    "us": "2 Tbs",
+                    "metric": "30 mL"
+                  }
+                ]
+              },
+              {
+                "item": "honey",
+                "us": "2 Tbs",
+                "metric": "42 g"
+              }
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "id": "seekh-kebab",
+      "title": "Seekh Kebab",
+      "source": "George Brown College — Indian Cooking 1",
+      "yield": "4 portions",
+      "timeActive": "25 min",
+      "timeTotal": "overnight + 25 min",
+      "tags": [
+        "indian",
+        "lamb",
+        "grilled",
+        "kebab"
+      ],
+      "prep": [],
+      "tree": {
+        "op": "finish and serve hot",
+        "children": [
+          {
+            "op": "cook",
+            "detail": "tandoor 8–10 min, or a hot oven at 400°F for about 15 min",
+            "children": [
+              {
+                "op": "shape onto skewers",
+                "children": [
+                  {
+                    "op": "rest in the fridge",
+                    "detail": "covered, overnight",
+                    "note": "Not spelled out on the sheet, but it does real work: salt and time turn the mince tacky, which is what keeps it on the skewer, and the spices reach the middle instead of sitting on the surface.",
+                    "children": [
+                      {
+                        "op": "mix and work",
+                        "detail": "until the meat is fine and pasty",
+                        "note": "Work it past the point of combined — the paste is protein binding, and it's what holds the kebab together.",
+                        "children": [
+                          {
+                            "item": "ground lamb",
+                            "us": "600 g"
+                          },
+                          {
+                            "item": "ginger paste",
+                            "us": "10 g"
+                          },
+                          {
+                            "item": "garlic paste",
+                            "us": "10 g"
+                          },
+                          {
+                            "item": "green chilies, finely chopped",
+                            "us": "2"
+                          },
+                          {
+                            "item": "salt",
+                            "us": "to taste"
+                          },
+                          {
+                            "item": "black pepper",
+                            "us": "to taste"
+                          },
+                          {
+                            "item": "onion, finely chopped",
+                            "us": "1",
+                            "note": "Squeeze it dry before it goes in — chopped onion weeps overnight and slackens the mix."
+                          },
+                          {
+                            "item": "garam masala powder",
+                            "us": "5 g"
+                          },
+                          {
+                            "item": "cinnamon powder",
+                            "us": "5 g"
+                          },
+                          {
+                            "item": "clove powder",
+                            "us": "5 g"
+                          },
+                          {
+                            "item": "coriander leaves",
+                            "us": "1/4 bunch"
+                          },
+                          {
+                            "item": "mint leaves",
+                            "us": "1 sprig"
+                          },
+                          {
+                            "item": "egg",
+                            "us": "1"
+                          }
+                        ]
+                      }
+                    ]
+                  }
+                ]
+              },
+              {
+                "item": "salted butter",
+                "us": "20 g",
+                "note": "The sheet lists it but never uses it — baste the kebabs with it as they cook."
+              }
+            ]
+          },
+          {
+            "item": "lemon juice",
+            "us": "1 lemon"
+          },
+          {
+            "item": "chaat masala",
+            "us": "5 g"
+          }
+        ]
+      }
+    },
+    {
+      "id": "tadka-dal",
+      "title": "Tadka Dal",
+      "source": "George Brown College — Indian Cooking 1",
+      "yield": "4 portions",
+      "timeActive": "20 min",
+      "timeTotal": "50 min",
+      "tags": [
+        "indian",
+        "lentils",
+        "vegetarian",
+        "dal"
+      ],
+      "prep": [],
+      "tree": {
+        "op": "finish and check seasoning",
+        "children": [
+          {
+            "op": "stir in the tempering",
+            "children": [
+              {
+                "op": "add to the lentils",
+                "detail": "into the cooked lentils, mix gently",
+                "children": [
+                  {
+                    "op": "simmer",
+                    "detail": "low flame, ~30 min, until broken down",
+                    "note": "Thirty minutes, not the printed fifteen — cook it until the lentils genuinely collapse. Skim the top once it first boils.",
+                    "children": [
+                      {
+                        "op": "wash and rinse",
+                        "detail": "cold water, a couple of times",
+                        "children": [
+                          {
+                            "item": "split red lentil",
+                            "us": "250 g"
+                          }
+                        ]
+                      },
+                      {
+                        "item": "water",
+                        "us": "1 L"
+                      },
+                      {
+                        "item": "salt",
+                        "us": "to taste"
+                      },
+                      {
+                        "item": "turmeric",
+                        "us": "2.5 g",
+                        "note": "Half the turmeric goes in with the lentils, half into the masala later."
+                      }
+                    ]
+                  },
+                  {
+                    "op": "sauté",
+                    "detail": "5 min more",
+                    "children": [
+                      {
+                        "op": "sauté",
+                        "detail": "onion to light brown, then ginger and garlic, ~5 min",
+                        "children": [
+                          {
+                            "op": "crackle",
+                            "children": [
+                              {
+                                "item": "ghee",
+                                "us": "30 g",
+                                "note": "45 g of ghee in total, split — 30 g here, 15 g held back for the tempering."
+                              },
+                              {
+                                "item": "cumin seed",
+                                "us": "5 g"
+                              }
+                            ]
+                          },
+                          {
+                            "item": "onion, finely chopped",
+                            "us": "1"
+                          },
+                          {
+                            "item": "ginger, chopped",
+                            "us": "10 g"
+                          },
+                          {
+                            "item": "garlic, chopped",
+                            "us": "10 g"
+                          }
+                        ]
+                      },
+                      {
+                        "item": "turmeric",
+                        "us": "2.5 g"
+                      },
+                      {
+                        "item": "red chili powder",
+                        "us": "5 g"
+                      },
+                      {
+                        "item": "tomatoes, chopped",
+                        "us": "2",
+                        "note": "Two tomatoes is roughly a 500 mL container's worth. Salt helps them break down, and crushing them with a spoon speeds it up."
+                      }
+                    ]
+                  }
+                ],
+                "note": "The lentils and the masala cook in separate pans the whole way through and only meet here, once the lentils are already done."
+              },
+              {
+                "op": "crackle",
+                "detail": "in the remaining ghee, until it pops",
+                "note": "This is what makes it a tadka dal — the tempering is bloomed separately and poured over at the end, never cooked into the pot.",
+                "children": [
+                  {
+                    "item": "ghee",
+                    "us": "15 g"
+                  },
+                  {
+                    "item": "mustard seeds",
+                    "us": "5 g"
+                  },
+                  {
+                    "item": "curry leaves",
+                    "us": "10"
+                  },
+                  {
+                    "item": "green chillies, slit",
+                    "us": "4"
+                  },
+                  {
+                    "item": "hing",
+                    "us": "1/4 tsp",
+                    "note": "Hing earns its place as a digestive."
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "item": "coriander leaves, chopped",
+            "us": "1/2 bunch"
+          },
+          {
+            "item": "garam masala",
+            "us": "5 g"
+          }
+        ]
+      }
+    },
+    {
+      "id": "takikomi-gohan",
+      "title": "Takikomi Gohan (Seasoned Mixed Rice)",
+      "source": "George Brown College — Japanese Cooking",
+      "yield": "4 servings",
+      "timeActive": "40 min",
+      "timeTotal": "1 hr 20 min + shiitake soak",
+      "tags": [
+        "japanese",
+        "rice",
+        "chicken",
+        "one pot"
+      ],
+      "prep": [],
+      "tree": {
+        "op": "fluff and garnish",
+        "children": [
+          {
+            "op": "steam off the heat",
+            "detail": "10 min, lid on",
+            "children": [
+              {
+                "op": "cook",
+                "detail": "low, 10–12 min",
+                "children": [
+                  {
+                    "op": "boil",
+                    "detail": "covered, high, until bubbling",
+                    "children": [
+                      {
+                        "op": "layer on top",
+                        "detail": "liquid poured over last",
+                        "note": "Everything sits on the rice and nothing gets stirred — mixing it in stops the rice cooking evenly.",
+                        "children": [
+                          {
+                            "op": "wash and drain",
+                            "detail": "as for gohan",
+                            "children": [
+                              {
+                                "item": "japonica rice (Calrose or Koshihikari)",
+                                "us": "2 cups",
+                                "metric": "400 g",
+                                "ref": "gohan"
+                              }
+                            ]
+                          },
+                          {
+                            "op": "peel and slice thin",
+                            "children": [
+                              {
+                                "item": "carrot",
+                                "us": "~3 1/2 oz",
+                                "metric": "100 g"
+                              }
+                            ]
+                          },
+                          {
+                            "op": "peel and slice thin",
+                            "children": [
+                              {
+                                "item": "daikon radish",
+                                "us": "~3 1/2 oz",
+                                "metric": "100 g"
+                              }
+                            ]
+                          },
+                          {
+                            "op": "peel and shave",
+                            "detail": "like sharpening a pencil, straight into water",
+                            "note": "Gobo browns within minutes of being cut — the water holds it.",
+                            "children": [
+                              {
+                                "item": "gobo (burdock) root",
+                                "us": "~1/2 oz",
+                                "metric": "15 g"
+                              }
+                            ]
+                          },
+                          {
+                            "op": "blanch, squeeze, slice",
+                            "detail": "2 min in boiling water",
+                            "note": "The boiling water pulls the frying oil out of the abura-age; squeeze it dry before slicing.",
+                            "children": [
+                              {
+                                "item": "abura-age (deep fried tofu)",
+                                "us": "1 large or 4–5 small"
+                              }
+                            ]
+                          },
+                          {
+                            "op": "trim and cut small",
+                            "detail": "pull off the excess fat",
+                            "children": [
+                              {
+                                "item": "chicken thigh, boneless and skinless",
+                                "us": "~7 oz",
+                                "metric": "200 g"
+                              }
+                            ]
+                          },
+                          {
+                            "op": "soak",
+                            "detail": "overnight, and keep the water",
+                            "note": "The soaking water is an ingredient in its own right — measure ¼ cup of it into the cooking liquid.",
+                            "children": [
+                              {
+                                "op": "destem and slice thin",
+                                "children": [
+                                  {
+                                    "item": "dried shiitake mushroom",
+                                    "us": "~3/4 oz",
+                                    "metric": "20 g"
+                                  }
+                                ]
+                              }
+                            ]
+                          },
+                          {
+                            "op": "stir together",
+                            "children": [
+                              {
+                                "item": "water",
+                                "us": "1 3/4 cups",
+                                "metric": "420 mL"
+                              },
+                              {
+                                "item": "shiitake soaking liquid",
+                                "us": "1/4 cup",
+                                "metric": "60 mL",
+                                "derivedFrom": "dried shiitake mushroom",
+                                "derivedLabel": "from the shiitake soak"
+                              },
+                              {
+                                "item": "soy sauce",
+                                "us": "3 Tbs",
+                                "metric": "45 mL"
+                              },
+                              {
+                                "item": "mirin",
+                                "us": "2 Tbs",
+                                "metric": "30 mL"
+                              },
+                              {
+                                "item": "sake",
+                                "us": "1 Tbs",
+                                "metric": "15 mL"
+                              }
+                            ],
+                            "note": "The 2 cups is water plus shiitake liquid only — the soy, mirin and sake go in on top of that, not inside the measure."
+                          }
+                        ]
+                      }
+                    ]
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "op": "blanch and slice thin",
+            "children": [
+              {
+                "item": "green beans, ends removed",
+                "us": "~3/4 oz",
+                "metric": "20 g"
+              }
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "id": "tonkotsu-ramen",
+      "title": "Tonkotsu Ramen",
+      "source": "George Brown College — Japanese Cooking",
+      "yield": "2 bowls",
+      "timeActive": "20 min",
+      "timeTotal": "20 min",
+      "tags": [
+        "japanese",
+        "ramen",
+        "noodles",
+        "pork"
+      ],
+      "prep": [],
+      "tree": {
+        "op": "assemble",
+        "detail": "noodles into the bowl, toppings on",
+        "note": "Built from the class's own components. The handout printed the Serious Eats assembly, which seasons with tahini and white pepper instead of tare — that version is a different soup. Regional shorthand from the notes: Hokkaido miso with corn and butter, Tokyo light and chicken-based, southern tonkotsu creamy, thick and strong.",
+        "children": [
+          {
+            "op": "combine in the bowl",
+            "detail": "tare first, hot broth poured over it",
+            "children": [
+              {
+                "item": "tare",
+                "us": "60–90 mL",
+                "ref": "tare",
+                "note": "30–45 mL per bowl. The handouts give no ratio, so this is a starting point — season the bowl, taste, and adjust before the noodles go in."
+              },
+              {
+                "op": "heat and whisk in",
+                "children": [
+                  {
+                    "item": "tonkotsu broth",
+                    "us": "3 cups",
+                    "metric": "700 mL",
+                    "ref": "tonkotsu-broth"
+                  },
+                  {
+                    "item": "fatback, finely minced",
+                    "us": "2 Tbs, optional",
+                    "note": "Not from the class sheets but worth keeping: the broth gets skimmed, and whisking minced fatback back in at the end emulsifies fat into the soup, making it creamy rather than greasy."
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "op": "cook and drain",
+            "children": [
+              {
+                "item": "ramen noodles",
+                "us": "2 portions",
+                "note": "Order from Umami Foods, or make alkaline noodles — bread flour, water, baking soda, salt, rested in the fridge. At a pinch, pasta boiled with 1 Tbs baking soda."
+              }
+            ]
+          },
+          {
+            "item": "chashu, sliced",
+            "us": "4–6 slices",
+            "ref": "nibuta-chashu"
+          },
+          {
+            "item": "ajitama, halved",
+            "us": "2",
+            "ref": "ajitama-ramen-eggs"
+          },
+          {
+            "op": "chop fine",
+            "children": [
+              {
+                "item": "scallions",
+                "us": "2"
+              }
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "id": "vegetable-samosas",
+      "title": "Vegetable Samosas",
+      "source": "George Brown College — Indian Cooking 1",
+      "yield": "24 pieces",
+      "timeActive": "1 hr",
+      "timeTotal": "1 hr 15 min",
+      "tags": [
+        "indian",
+        "fried",
+        "vegetarian",
+        "snack"
+      ],
+      "prep": [],
+      "tree": {
+        "op": "deep fry",
+        "detail": "350°F (175°C), until brown and crisp",
+        "note": "The sheet prints 350 C — that's 350°F. At 350 C you'd have charcoal.",
+        "children": [
+          {
+            "op": "fill and shape",
+            "detail": "cone, fill, seal — shaping was demonstrated in class",
+            "children": [
+              {
+                "op": "rest",
+                "detail": "under a moist cloth, 15 min",
+                "children": [
+                  {
+                    "op": "knead gently",
+                    "detail": "to a semi-hard dough",
+                    "note": "Semi-hard, not soft — a slack dough fries up bubbly and greasy instead of crisp.",
+                    "children": [
+                      {
+                        "op": "sieve together",
+                        "children": [
+                          {
+                            "item": "all-purpose flour",
+                            "us": "300 g"
+                          },
+                          {
+                            "item": "salt",
+                            "us": "to taste"
+                          }
+                        ]
+                      },
+                      {
+                        "item": "canola oil",
+                        "us": "60 mL"
+                      },
+                      {
+                        "item": "warm water",
+                        "us": "as required"
+                      }
+                    ]
+                  }
+                ]
+              },
+              {
+                "op": "cool, then stir in",
+                "children": [
+                  {
+                    "op": "season",
+                    "children": [
+                      {
+                        "op": "cook dry",
+                        "note": "Cook the filling until it's genuinely dry, then let it cool completely. A damp or warm filling steams inside the pastry and bursts it.",
+                        "children": [
+                          {
+                            "op": "cook",
+                            "children": [
+                              {
+                                "op": "crackle",
+                                "detail": "ghee first, then the cumin",
+                                "children": [
+                                  {
+                                    "item": "ghee",
+                                    "us": "30 g"
+                                  },
+                                  {
+                                    "item": "whole cumin seeds",
+                                    "us": "5 g"
+                                  }
+                                ]
+                              },
+                              {
+                                "item": "green chilli",
+                                "us": "5 g"
+                              },
+                              {
+                                "item": "ginger, chopped",
+                                "us": "10 g"
+                              }
+                            ]
+                          },
+                          {
+                            "item": "green peas",
+                            "us": "100 g"
+                          },
+                          {
+                            "item": "turmeric powder",
+                            "us": "5 g"
+                          },
+                          {
+                            "op": "parboil and dice",
+                            "detail": "with turmeric and salt",
+                            "children": [
+                              {
+                                "item": "potato",
+                                "us": "500 g"
+                              }
+                            ]
+                          }
+                        ]
+                      },
+                      {
+                        "item": "salt",
+                        "us": "to taste"
+                      },
+                      {
+                        "item": "garam masala powder",
+                        "us": "2.5 g"
+                      },
+                      {
+                        "item": "chaat masala",
+                        "us": "5 g",
+                        "note": "Dry mango powder (amchur) and rock salt are its backbone."
+                      }
+                    ]
+                  },
+                  {
+                    "item": "coriander leaves, washed and chopped",
+                    "us": "1/4 bunch"
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "item": "oil for deep frying",
+            "us": "as needed"
+          }
+        ]
+      }
+    }
+  ]
+}
