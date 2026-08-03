@@ -132,6 +132,11 @@
     font-family:var(--mono);font-size:10.5px;color:var(--muted);
     letter-spacing:.04em;margin:8px 0 0;
   }
+  .colophon{
+    font-family:var(--mono);font-size:10.5px;color:var(--muted);
+    letter-spacing:.04em;margin:40px 0 8px;
+  }
+  .colophon a{color:inherit}
   td.op .verb{display:block}
   td.op .detail{display:block;font-size:11px;color:var(--muted);margin-top:3px}
   td.blank{background:var(--card)}

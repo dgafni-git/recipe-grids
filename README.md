@@ -2,6 +2,8 @@
 
 Recipes stored as dependency grids rather than prose: ingredients stack down the left, and merged cells to the right show exactly what gets combined with what, in what order. The final step spans the whole table.
 
+The tabular notation was invented by Michael Chu, who introduced it on [Cooking for Engineers](https://www.cookingforengineers.com/) in 2004. This project is an implementation of his format as a personal, searchable archive.
+
 The format makes structure visible that a numbered method hides — which branches are independent, which ingredient enters twice, which prep is a dead end that never joins the main flow.
 
 ## Running it
