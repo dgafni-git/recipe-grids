@@ -2748,7 +2748,8 @@
       ],
       "prep": [
         "Everything goes in raw — no searing, no sautéing",
-        "No added water"
+        "No added water",
+        "Layer in the order listed — cabbage at the bottom, aromatics on top; don't stir"
       ],
       "tree": {
         "op": "serve",
@@ -2759,12 +2760,6 @@
             "detail": "high, 30 min",
             "children": [
               {
-                "item": "chicken drumsticks or thighs",
-                "us": "3 lb",
-                "metric": "1.4 kg",
-                "note": "The video uses drumsticks; bone-in thighs work the same."
-              },
-              {
                 "op": "chop",
                 "children": [
                   {
@@ -2773,15 +2768,21 @@
                     "metric": "~400 g"
                   },
                   {
+                    "item": "yellow onion",
+                    "us": "1"
+                  },
+                  {
                     "item": "apple",
                     "us": "1",
                     "metric": "~200 g"
-                  },
-                  {
-                    "item": "yellow onion",
-                    "us": "1"
                   }
                 ]
+              },
+              {
+                "item": "chicken drumsticks or thighs",
+                "us": "3 lb",
+                "metric": "1.4 kg",
+                "note": "The video uses drumsticks; bone-in thighs work the same."
               },
               {
                 "item": "ginger",
