@@ -2733,6 +2733,67 @@
           }
         ]
       }
+    },
+    {
+      "id": "napa-cabbage-chicken-soup",
+      "title": "Napa Cabbage Chicken Soup",
+      "source": "Instagram reel — creator unknown",
+      "yield": "4 to 6 servings",
+      "timeActive": "10 min",
+      "timeTotal": "50 min",
+      "tags": [
+        "soup",
+        "chicken",
+        "pressure cooker"
+      ],
+      "prep": [
+        "Everything goes in raw — no searing, no sautéing",
+        "No added water — the cabbage and chicken release all the broth"
+      ],
+      "tree": {
+        "op": "pressure cook",
+        "detail": "high, 30 min",
+        "note": "Serve with a quick garlic, ginger and green onion oil — optional, but the post insists.",
+        "children": [
+          {
+            "item": "chicken drumsticks or thighs",
+            "us": "3 lb",
+            "metric": "1.4 kg",
+            "note": "The video uses drumsticks; bone-in thighs work the same."
+          },
+          {
+            "op": "chop",
+            "children": [
+              {
+                "item": "napa cabbage",
+                "us": "1/3 head",
+                "metric": "~400 g"
+              },
+              {
+                "item": "apple",
+                "us": "1",
+                "metric": "~200 g"
+              },
+              {
+                "item": "yellow onion",
+                "us": "1"
+              }
+            ]
+          },
+          {
+            "item": "ginger",
+            "us": "a few slices"
+          },
+          {
+            "item": "minced garlic",
+            "us": "1 Tbs"
+          },
+          {
+            "item": "salt",
+            "us": "to taste"
+          }
+        ]
+      }
     }
   ]
 }
